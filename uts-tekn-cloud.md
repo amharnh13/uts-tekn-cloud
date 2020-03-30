@@ -59,3 +59,39 @@ Disini saya menjalankan Docker tersebut pada Sistem Operasi Ubuntu 18.04.3 pada 
 
 
 4. Buat Dockerfile dan Push Image di DockerHub
+- Membuat Dockerfile
+Langkah - langkah yang harus dilakukan dalam membuat dockerfile yaitu sebagai berikut :
+Pertama kita membuat folder dengan nama bebas (misal DockerFiles -> mkdir DockerFiles), lalu pindah ke lokasi folder tersebut (cd DockerFiles/), kemudian buat file Dockerfile (touch Dockerfile), dan edit isi dari file Dockerfile tersebut menggunakan vim (vim Dockerfile)
+![19](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/19.png)
+
+Kemudian untuk isi dari Dockerfilenya sebagai berikut dimana nantinya isi dari image ini akan menampilkan kata - kata yang ada pada perintah CMD
+![20](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/20.png)
+
+- Build Image menggunakan Dockerfile
+Untuk membuat Image menggunakan file Dockerfile yang telah dibuat sebelumnya yaitu dengan menggunakan perintah "docker build -t tekncloud:uts" dimana image yang terbuat akan memiliki nama "tekncloud" dengan tag namenya "uts"
+![21](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/21.png)
+
+- Cek hasil Image
+Untuk melihat hasil dari Image yang telah dibuat sebelumnya, dapat dengan menggunakan perintah "docker image ls" dan untuk mencoba menjalankan image tersebut dapat dengan menggunakan perintah "docker run (ID image)"
+![22](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/22.png)
+![23](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/23.png)
+
+- Push Image ke DockerHub
+Untuk melakukan proses Push ke DockerHub, kita perlu membuat repository terlebih dahulu pada [hub.docker.com](https://hub.docker.com/), dan pastinya kita harus login docker terlebih dahulu pada terminal tersebut
+![24](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/24.png)
+![25](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/25.png)
+
+login docker di terminal 
+![26](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/26.png)
+
+- Commit n Push
+setelah proses login dan pembuatan repo pada dockerhub telah selesai, selanjutnya kita melakukan commit n push image docker sesuai dengan nama container/image yang ingin di masukan ke repo
+
+Disini saya membuat container bernama uts-tc terlebih dahulu dari image tekncloud yang dibuat sebelumnya
+![27](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/27.png)
+![28](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/28.png)
+![29](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/29.png)
+
+- Hasil Repo
+![30](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/30.png)
+![31](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/31.png)
