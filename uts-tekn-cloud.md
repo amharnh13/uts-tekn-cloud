@@ -14,10 +14,8 @@ Ujian Tengah Semester - Teknologi Cloud
 
 
 2. Pilih Image Docker untuk di pull
-
-Image Docker yang akan saya pull yaitu MongoDB, untuk langkah - langkah pull untuk Image MongoDB yaitu seperti pada gambar berikut :
+- Image Docker yang akan saya pull yaitu MongoDB, untuk langkah - langkah pull untuk Image MongoDB yaitu seperti pada gambar berikut :
 ![4](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/4.png)
-
 ![5](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/5.png)
 
 3. Langkah menjalankan Docker, pull image, menjalankan image menjadi container, dan menghentikan container
@@ -37,7 +35,7 @@ Disini saya menjalankan Docker tersebut pada Sistem Operasi Ubuntu 18.04.3 pada 
 ![11](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/11.png)
 ![12](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/12.png)
 
-- Setelah proses instalasi berhasil, kita dapat mengecek Docker yang telah terinstal tersebut dengan menggunakan perintah berikut
+- Setelah proses instalasi berhasil, kita dapat mengecek Docker yang telah terinstal tersebut dengan menggunakan perintah berikut 
 ![13](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/13.png)
 
 
@@ -49,13 +47,13 @@ Disini saya menjalankan Docker tersebut pada Sistem Operasi Ubuntu 18.04.3 pada 
 - Setelah proses selesai, kita dapat menjalankan container mongodb tersebut. Pada perintah 'docker image', kita dapat melihat image apa yang kita miliki dan dapat digunakan Lalu dengan perintah 'docker run -d -p 27017-27019:27017-27019 --name mongodb mongo' maka program akan menjalankan docker pada image mongo dengan nama containernya mongodb
 ![15](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/15.png)
 
-Kemudian dengan perintah 'docker exec -it mongodb bash' maka kita telah masuk pada container dari image mongo tersebut. Dan dengan perintah 'mongo' maka kita telah masuk ke CLI dari MongoDB
+- Kemudian dengan perintah 'docker exec -it mongodb bash' maka kita telah masuk pada container dari image mongo tersebut. Dan dengan perintah 'mongo' maka kita telah masuk ke CLI dari MongoDB
 ![16](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/16.png)
 
 - Untuk keluar dari container image Mongo tersebut, cukup dengan mengetikan perintah 'exit' pada CLI Mongo, dan 'exit' pada container image mongo
 ![17](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/17.png)
 
-Kemudian dengan perintah 'docker ps' kita dapat melihat daftar container yang aktif lalu menghentikan container tersebut sesuai dengan IDnya menggunakan perintah docker stop
+- Kemudian dengan perintah 'docker ps' kita dapat melihat daftar container yang aktif lalu menghentikan container tersebut sesuai dengan IDnya menggunakan perintah docker stop
 ![18](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/18.png)
 
 
