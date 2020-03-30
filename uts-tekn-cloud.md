@@ -14,12 +14,13 @@ Ujian Tengah Semester - Teknologi Cloud
 
 
 2. Pilih Image Docker untuk di pull
+
 Image Docker yang akan saya pull yaitu MongoDB, untuk langkah - langkah pull untuk Image MongoDB yaitu seperti pada gambar berikut :
 ![4](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/4.png)
 
 ![5](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/5.png)
 
-3. Langkah menjalankan Dockerd, pull image, menjalankan image menjadi container, dan menghentikan container
+3. Langkah menjalankan Docker, pull image, menjalankan image menjadi container, dan menghentikan container
 Disini saya menjalankan Docker tersebut pada Sistem Operasi Ubuntu 18.04.3 pada VMware Workstation
 ![6](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/6.png)
 
