@@ -35,7 +35,8 @@ Disini saya menjalankan Docker tersebut pada Sistem Operasi Ubuntu 18.04.3 pada 
 ![11](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/11.png)
 ![12](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/12.png)
 
-- Setelah proses instalasi berhasil, kita dapat mengecek Docker yang telah terinstal tersebut dengan menggunakan perintah berikut 
+- Setelah proses instalasi berhasil, kita dapat mengecek Docker yang telah terinstal tersebut dengan menggunakan perintah berikut
+
 ![13](https://github.com/amharnh13/uts-tekn-cloud/blob/master/image/13.png)
 
 
